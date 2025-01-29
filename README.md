@@ -32,7 +32,7 @@ cd api-gateway && npm install && cd ..
 cd user-service && npm install && cd ..
 
 # Task Service
-cd task-service && npm install && cd .
+cd task-service && npm install && cd ..
 ```
 
 2.3. Ejecutar servicios (en terminales separadas):
