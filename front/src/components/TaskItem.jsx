@@ -3,7 +3,7 @@ import {
   CheckCircle2,
   Circle,
   Trash2,
-  Clock,
+  // Clock,
   Calendar,
   Pencil,
   X,
@@ -117,10 +117,10 @@ export const TaskItem = ({
           >
             {todo.priority}
           </Badge>
-          <span className="text-xs text-muted-foreground flex items-center gap-1">
+          {/* <span className="text-xs text-muted-foreground flex items-center gap-1">
             <Clock className="h-3 w-3" />
             {new Date(todo.createdAt).toLocaleTimeString()}
-          </span>
+          </span> */}
           <span className="text-xs text-muted-foreground flex items-center gap-1">
             <Calendar className="h-3 w-3" />
             {new Date(todo.createdAt).toLocaleDateString()}
